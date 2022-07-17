@@ -1,0 +1,80 @@
+body {
+  padding: 0 0%;
+  margin: 0;
+  background-color: #feb139;
+  color: white;
+  font-size: 20px;
+}
+nav {
+  padding: 1% 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #d61c4e;
+}
+h1 {
+  text-align: center;
+}
+.list-p {
+  text-align: left;
+  margin-left: 1.5%;
+}
+a {
+  font-size: 30px;
+}
+#myImage {
+  width: 200px;
+  float: right;
+  border-radius: 50%;
+}
+ul {
+  color: red;
+  list-style: none;
+  list-style-image: url("idea.png");
+}
+#form {
+  width: 50%;
+  height: 200px;
+
+}
+ol {
+  color: black;
+}
+.center {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+h1,
+p {
+  width: 100%;
+  text-align: center;
+}
+#queryInput {
+  display: flex;
+  justify-content: center;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 150px;
+  display: inline-block;
+  background-color: white;
+  color: black;
+}
+
+div .gallery:hover {
+  border: 1px solid #777;
+}
+
+div .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div .desc {
+  padding: 5px;
+  text-align: center;
+}

@@ -33,9 +33,15 @@ ul {
   list-style-image: url("idea.png");
 }
 #form {
-  width: 50%;
+  width: 100%;
   height: 200px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+#message{
+  width: 50ch;
 }
 ol {
   color: black;

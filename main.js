@@ -15,7 +15,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "/public/homepage.html"));
+  res.sendFile(path.join(__dirname, "/public/homePage.html"));
 });
 
 app.get("/food", async function (req, res) {

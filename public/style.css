@@ -12,12 +12,9 @@ nav {
   justify-content: space-around;
   background-color: #d61c4e;
 }
-h1 {
-  text-align: center;
-}
 .list-p {
   text-align: left;
-  margin-left: 1.5%;
+  padding-left: 1.5%;
 }
 a {
   font-size: 30px;
@@ -53,7 +50,7 @@ ol {
 }
 h1,
 p {
-  width: 100%;
+  width: 95%;
   text-align: center;
 }
 #queryInput {
